@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM FIKOM</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+   
+        <!-- swiper css -->
+        <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+    <!-- Template User CSS File -->
+    <link href="./userstyle.css" rel="stylesheet">
+
+    <!-- <link href="<?= base_url(); ?>/assets/css/userstyle.css" rel="stylesheet"> -->
+
+    <!-- <link href="http://localhost/fikom/public/assets/css/userstyle.css" rel="stylesheet"> -->
+
+    <!-- Box Icon -->
+    <!-- <link href="http://localhost/fikom/public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
+</head>
+
+<!-- <body> -->
+
+<body id="top" class="dark_theme">
+
+    <!-- 
+    - #HEADER
+  -->
+    <header class="header active" data-header>
+        <div class="container">
+
+            <h1 class="h1 logo">
+                <a href="#">Bem Fikom</a>
+            </h1>
+
+            <div class="navbar-actions">
+
+
+                <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+                    <span class="icon"></span>
+                </button>
+
+            </div>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li>
+                        <a href="#visimisi" class="navbar-link" data-nav-link>Visi Misi</a>
+                    </li>
+
+                    <li>
+                        <a href="#kegiatan" class="navbar-link" data-nav-link>Kegiatan</a>
+                    </li>
+
+                    <li>
+                        <a href="#pengurus" class="navbar-link" data-nav-link>Badan Pengurus</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+                <ion-icon name="menu-outline" class="open"></ion-icon>
+                <ion-icon name="close-outline" class="close"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+            <!-- HERO -->
+
+            <!-- <section class="section hero" id="home" aria-label="hero"> -->
+            <section class="section hero" id="home" aria-label="hero"
+                style="background-image: url('http://localhost/fikom/public/assets/images/tes.jpg')">
+
+                <div class="container">
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle">Selamat Datang</p>
+
+                        <h1 class="h1 hero-title">BEM FIKOM UKIP MAKASSAR</h1>
+
+                        <p class="hero-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporthem
+                            incididunt ut
+                            labore et
+                            dolore magna
+                            aliqua.
+                        </p>
+
+
+                    </div>
+
+                    <figure class="hero-banner">
+                        <img src="http://localhost/fikom/public/assets/images/logobem.png" width="720" height="673"
+                            alt="hero banner" class="w-100">
+                    </figure>
+
+                </div>
+            </section>
+
+
+            <!--- #Service-->
+            <section class="section service" id="kegiatan">
+                <div class="container">
+
+                    <h2 class="h2 section-title">Kegiatan BEM Fikom</h2>
+             
+                    <p class="section-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa
+                        scelerisque
+                        venenatis,
+                        massa gravida donec orci.
+                    </p>
+                    
+                   
+                    <ul class="service-list ">
+                      <li >
+                            <div class="service-card ">
+                                <figure class="card-banner">
+                                    <!-- <img src="http://localhost/fikom/public/assets/img/eser2.jpg" width="728" height="344" loading="lazy" alt="support"  class="w-100"> -->
+                                    <img src="http://localhost/fikom/public/assets/img/cyber.jpg"
+                                        style="--width: 720; --height: 420;" loading="lazy" alt="support" class="w-100">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Ibadah Bulalan</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla
+                                        duis
+                                        consectetur
+                                        adipiscing elit.
+                                    </p>
+
+                                    <a href="#" class="btn-link">
+                                        <span class="span">Lihat Galeri</span>
+
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>   
+                         
+                        <li>
+                            <div class="service-card">
+
+                                <figure class="card-banner">
+                                    <!-- <img src="http://localhost/fikom/public/assets/img/slides-2.jpg" width="728" height="344" loading="lazy" alt="Engagement" -->
+                                    <img src="http://localhost/fikom/public/assets/images/fikom2.jpg"
+                                        style="--width: 720; --height: 420;" loading="lazy" alt="Engagement"
+                                        class="w-100">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">LKL</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla
+                                        duis
+                                        consectetur
+                                        adipiscing elit.
+                                    </p>
+
+                                    <a href="#" class="btn-link">
+                                        <span class="span">Lihat Galeri</span>
+
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <figure class="card-banner">
+                                    <!-- <img src="http://localhost/fikom/public/assets/img/news-1.jpg" width="728" height="400" loading="lazy" alt="Marketing" -->
+                                    <img src="http://localhost/fikom/public/assets/images/fikom1.jpg"
+                                        style="--width: 720; --height: 420;" loading="lazy" alt="Marketing"
+                                        class="w-100">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Ibadah Padang</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla
+                                        duis
+                                        consectetur
+                                        adipiscing elit.
+                                    </p>
+
+                                    <a href="#" class="btn-link">
+                                        <span class="span">Lihat Galeri</span>
+
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+           
+                      </ul>
+                </div>
+    
+            </section>
+
+            <!--- #KSB-->
+            <section class="section instructor" id="pengurus" aria-label="instructor">
+                <div class="container">
+                    <h2 class="h2 section-title">KSB Bem Fikom</h2>
+                    <ul class="instructor-list">
+                        <li class="instructor-item">
+                            <div class="instructor-card">
+                                <figure class="card-banner">
+                                    <img src="http://localhost/fikom/public/assets/img/instructor-1.png" alt="">
+                                </figure>
+                                
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Ade Purnomo Adji</a>
+                                </h3>
+                                <p class="card-subtitle">Ketua</p>
+
+                                <ul class="card-sosial-list">
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-tiktok"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="instructor-item">
+                            <div class="instructor-card">
+                                <figure class="card-banner">
+                                    <img src="http://localhost/fikom/public/assets/img/instructor-3.png" alt="">
+                                </figure>
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Raymhonta Ginting</a>
+                                </h3>
+                                <p class="card-subtitle">Sekeretaris</p>
+                                <ul class="card-sosial-list">
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-tiktok"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="instructor-item">
+                            <div class="instructor-card">
+                                <figure class="card-banner">
+                                    <img src="http://localhost/fikom/public/assets/img/instructor-2.png" alt="">
+                                </figure>
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Fransisca L. Christina S.</a>
+                                </h3>
+                                <p class="card-subtitle">Bendahara</p>
+                                <ul class="card-sosial-list">
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-tiktok"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="card-social-link">
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+
+            <!-- About -->
+
+            <section class="section about" id="visimisi" aria-label="about">
+                <h2 class="h2 about-title">Visi dan Misi</h2>
+                <div class="container">
+
+                    <div class="about-banner img-holder" style="--width: 720; --height: 960;">
+                        <img src="http://localhost/fikom/public/assets/images/project-3.jpg" width="720" height="960"
+                            loading="lazy" alt="about banner" class="img-cover">
+
+                    </div>
+
+                    <div class="about-content">
+
+
+                        <div class="card-visi">
+                            <h3 class="h3 about-title-visi">Visi</h3>
+
+                            <p class="section-text about-text">
+                                Visi adalah menyangkut cara pandang organisasi kedepan. Oleh karena itu,
+                                visi BEM Fakultas Informatika dan Komputer adalah "Menjadi tonggak pergerakan dan
+                                perjuangan
+                                mahasiswa baik intern maupun ekstern kampus yang mampu melahirkan kader-kader yang
+                                memiliki
+                                kecerdasan intelektual dan berdaya juang, serta senantiasa berpegang pada nilai-nilai
+                                kemanusiaan dalam kehidupan berbangsa dan bernegara".
+                            </p>
+                        </div>
+
+                        <div class="card-misi">
+                            <h3 class="h3 about-title-misi">Misi</h3>
+
+                            <ul class="about-list">
+
+                                <li class="about-item">
+                                    <ion-icon name="ellipse-outline" aria-hidden="true"></ion-icon>
+
+                                    <p class="section-text">
+                                        Menampung dan menyalurkan aspirasi mahasiswa BEM Fakultas Informatika
+                                        dan Komputer
+                                    </p>
+                                </li>
+
+                                <li class="about-item">
+                                    <ion-icon name="ellipse-outline" aria-hidden="true"></ion-icon>
+
+                                    <p class="section-text">
+                                        Melahirkan kader-kader organisatoris yang berbudi pekerti luhur, jujur, cerdas
+                                        dan
+                                        disiplin.
+                                    </p>
+                                </li>
+
+                                <li class="about-item">
+                                    <ion-icon name="ellipse-outline" aria-hidden="true"></ion-icon>
+
+                                    <p class="section-text">
+                                        Mengembangkan kemampuan daya berpikir kritis serta berkarya untuk mewujudkan Tri
+                                        Dharma
+                                        Perguruan Tinggi.
+                                    </p>
+                                </li>
+
+                                <li class="about-item">
+                                    <ion-icon name="ellipse-outline" aria-hidden="true"></ion-icon>
+
+                                    <p class="section-text">
+                                        Membangun sikap mental dan penggerak dalam menjalankan tugas dan tanggung
+                                        jawabnya
+                                        ditengah-tengah kehidupan berbangsa dan bernegara serta Perguruan Tinggi.
+                                    </p>
+                                </li>
+
+                                <li class="about-item">
+                                    <ion-icon name="ellipse-outline" aria-hidden="true"></ion-icon>
+
+                                    <p class="section-text">
+                                        Mengembangkan kemampuan berkarya mahasiswa melalui program yang kreatif dan
+                                        inovatif.
+                                    </p>
+                                </li>
+
+                                <li class="about-item">
+                                    <ion-icon name="ellipse-outline" aria-hidden="true"></ion-icon>
+
+                                    <p class="section-text">
+                                        Menjawab segala tantangan dan dinamika yang berkembang baik intern maupun
+                                        ekstern
+                                        kampus.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- - #BLOG-->
+
+            <section class="section blog" id="blog" aria-label="blog">
+                <div class="container">
+
+                    <h2 class="h2 section-title">Artikel</h2>
+
+                    <p class="section-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna
+                        aliqua.
+                    </p>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                                    <img src="http://localhost/fikom/public/assets/images/project-6.jpg" width="860"
+                                        height="646" loading="lazy"
+                                        alt="How to Become a Successful Entry Level UX Designer" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Lorem ipsum dolor sit amet consectetur.
+                                            Designer</a>
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card grid">
+
+                                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                                    <img src="http://localhost/fikom/public/assets/images/news-1.jpg" width="860"
+                                        height="646" loading="lazy" alt="2022 Local SEO Success: The Year of Everywhere"
+                                        class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing.
+                                            Everywhere</a>
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card grid">
+
+                                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                                    <img src="http://localhost/fikom/public/assets/images/hero-banner.jpg" width="860"
+                                        height="646" loading="lazy"
+                                        alt="The Guide to Running a Client Discovery Process" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit. Voluptates.
+                                            Process</a>
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card grid">
+
+                                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                                    <img src="http://localhost/fikom/public/assets/images/blog-4.jpg" width="860"
+                                        height="646" loading="lazy"
+                                        alt="3 Ways to Get Client Approval for Scope Changes" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Lorem ipsum, dolor sit amet consectetur
+                                            adipisicing.</a>
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card grid">
+
+                                <figure class="card-banner img-holder" style="--width: 860; --height: 646;">
+                                    <img src="http://localhost/fikom/public/assets/images/blog-5.jpg" width="860"
+                                        height="646" loading="lazy" alt="Top 21 Must-Read Blogs For Creative Agencies"
+                                        class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <time class="time" datetime="2022-06-16">June 16, 2022</time>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Lorem ipsum dolor sit amet.</a>
+                                    </h3>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- 
+             - #FOOTER
+             -->
+
+   
+            <footer class="footer">
+                <div class="container">
+
+                    <!-- <p class="copyright">
+                        &copy; 2022 All Rights Reserved by <a href="#" class="copyright-link">eserranda</a> Sonsored By
+                        <a href="" class="copyright-link">Mikha</a>
+                    </p> -->
+                    <p class="copyright">
+                        &copy; 2022 All Rights Reserved | Designed by <a href="#" class="copyright-link">eserranda</a>
+                        Sponsored By
+                        <a href="" class="copyright-link">Mikha</a>
+                    </p>
+
+                </div>
+            </footer>
+
+            <!-- 
+           - #BACK TO TOP
+         -->
+
+            <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
+                <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+            </a>
+
+
+        </article>
+    </main>
+
+    <!-- jquery -->
+    <!-- <script src="<?= base_url(); ?>/assets/js/costum.js"></script> -->
+    <script src="./costum.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="./swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
+</body>
+
+</html>
+
+<!-- Initialize Swiper -->
+<script>
+   var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+  });
+
+</script>
